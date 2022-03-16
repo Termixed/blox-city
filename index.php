@@ -10,5 +10,7 @@
   </body>
 </html>
 <?php
-echo "Hello guys welcome to my application.";
+if(isset($_POST["submit"])){
+echo "You have submitted these form.";
+}
 ?>
