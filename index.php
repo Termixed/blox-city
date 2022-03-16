@@ -5,7 +5,7 @@
   <body>
     <form action="" method="POST">
       <input type="text" name="username" placeholder="Enter your username...">
-      <button type="button" name="submit"></button>
+      <button type="submit" name="submit">Submit</button>
     </form>
   </body>
 </html>
