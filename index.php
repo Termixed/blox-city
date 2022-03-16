@@ -11,6 +11,11 @@
 </html>
 <?php
 if(isset($_POST["submit"])){
-echo "You have submitted these form.";
+  $username = $_POST["username"];
+  if(empty($username)){
+  echo "please enter your username.";
+  }else{
+echo "You have submitted this form.";
+}
 }
 ?>
